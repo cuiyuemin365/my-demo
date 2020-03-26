@@ -13,6 +13,7 @@
     <modules>
         <module>apache-common-demo</module>
         <module>guava-demo</module>
+        <module>demo-spring</module>
     </modules>
 
 </project>
