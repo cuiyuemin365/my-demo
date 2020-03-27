@@ -14,6 +14,8 @@
         <module>apache-common-demo</module>
         <module>guava-demo</module>
         <module>demo-spring</module>
+        <module>demo-tx</module>
+        <module>demo-tx</module>
     </modules>
 
 </project>
