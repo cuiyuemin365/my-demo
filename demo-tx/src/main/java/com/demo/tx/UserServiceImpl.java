@@ -1,10 +1,13 @@
 package com.demo.tx;
 
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
 
 @Component
 public class UserServiceImpl implements UserService {
+
     @Override
+    @Transactional
     public User createUser(String firstName, String lastName, int age) {
         User user = new User();
         user.setFirstName(firstName);
