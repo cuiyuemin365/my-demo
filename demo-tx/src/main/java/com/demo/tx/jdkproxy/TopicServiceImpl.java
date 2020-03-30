@@ -11,4 +11,12 @@ public class TopicServiceImpl implements TopicService {
         log.info("删除topic记录{}", topicId);
     }
 
+    public void removeTopic2(Long topicId) {
+        log.info("删除topic记录{}", topicId);
+    }
+
+    private String test() {
+        return "asdf";
+    }
+
 }

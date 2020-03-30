@@ -25,4 +25,5 @@ public class CglibProxy implements MethodInterceptor {
         log.info("end");
         return result;
     }
+
 }
