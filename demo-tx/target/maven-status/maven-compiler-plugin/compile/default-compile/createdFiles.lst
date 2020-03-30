@@ -1,5 +1,8 @@
-com/demo/tx/UserService.class
-com/demo/tx/UserServiceImpl.class
+com/demo/tx/jdkproxy/TopicService.class
+com/demo/tx/jdkproxy/PerfomanceHandler.class
 com/demo/tx/User.class
 com/demo/tx/UserAspect.class
+com/demo/tx/UserService.class
+com/demo/tx/UserServiceImpl.class
+com/demo/tx/jdkproxy/TopicServiceImpl.class
 com/demo/tx/DemoApplication.class
