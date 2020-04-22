@@ -11,9 +11,14 @@ import org.springframework.stereotype.Component;
 @Component
 public class UserAspect {
 
-    @Before("execution(* com.demo.tx.*.*(..))")
+    @Before("execution(* com.demo.tx.aop.service.*.*(..))")
     public void doAccessCheck() {
         log.info("before");
+    }
+
+    @Before("@annotation(com.demo.tx.aop.AopA)")
+    public void doAccessCheck2() {
+        log.info("doAccessCheck2");
     }
 
 }
